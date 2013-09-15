@@ -1,0 +1,389 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2D0CC77317DADB8A00AB4E18 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2D0CC77217DADB8A00AB4E18 /* UIKit.framework */; };
+		2D0CC77517DADB8A00AB4E18 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2D0CC77417DADB8A00AB4E18 /* Foundation.framework */; };
+		2D0CC77717DADB8A00AB4E18 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2D0CC77617DADB8A00AB4E18 /* CoreGraphics.framework */; };
+		2D0CC77D17DADB8A00AB4E18 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 2D0CC77B17DADB8A00AB4E18 /* InfoPlist.strings */; };
+		2D0CC77F17DADB8A00AB4E18 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D0CC77E17DADB8A00AB4E18 /* main.m */; };
+		2D0CC78317DADB8A00AB4E18 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D0CC78217DADB8A00AB4E18 /* AppDelegate.m */; };
+		2D0CC78517DADB8A00AB4E18 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 2D0CC78417DADB8A00AB4E18 /* Default.png */; };
+		2D0CC78717DADB8A00AB4E18 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2D0CC78617DADB8A00AB4E18 /* Default@2x.png */; };
+		2D0CC78917DADB8A00AB4E18 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2D0CC78817DADB8A00AB4E18 /* Default-568h@2x.png */; };
+		2D0CC78C17DADB8A00AB4E18 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D0CC78B17DADB8A00AB4E18 /* ViewController.m */; };
+		2D0CC78F17DADB8A00AB4E18 /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2D0CC78D17DADB8A00AB4E18 /* ViewController.xib */; };
+		2D0CC7A317DAE1C400AB4E18 /* Deer.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 2D0CC79617DAE1C400AB4E18 /* Deer.jpg */; };
+		2D0CC7A417DAE1C400AB4E18 /* Porcupine.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 2D0CC79717DAE1C400AB4E18 /* Porcupine.jpg */; };
+		2D0CC7A517DAE1C400AB4E18 /* Panda.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 2D0CC79817DAE1C400AB4E18 /* Panda.jpg */; };
+		2D0CC7A617DAE1C400AB4E18 /* Kangaroo.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 2D0CC79917DAE1C400AB4E18 /* Kangaroo.jpg */; };
+		2D0CC7A717DAE1C400AB4E18 /* Bear.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 2D0CC79A17DAE1C400AB4E18 /* Bear.jpg */; };
+		2D0CC7A817DAE1C400AB4E18 /* Chipmunk.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 2D0CC79B17DAE1C400AB4E18 /* Chipmunk.jpg */; };
+		2D0CC7A917DAE1C400AB4E18 /* Rabbit.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 2D0CC79C17DAE1C400AB4E18 /* Rabbit.jpg */; };
+		2D0CC7AA17DAE1C400AB4E18 /* Fish.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 2D0CC79D17DAE1C400AB4E18 /* Fish.jpg */; };
+		2D0CC7AB17DAE1C400AB4E18 /* Bird.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 2D0CC79E17DAE1C400AB4E18 /* Bird.jpg */; };
+		2D0CC7AC17DAE1C400AB4E18 /* Dog.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 2D0CC79F17DAE1C400AB4E18 /* Dog.jpg */; };
+		2D0CC7AD17DAE1C400AB4E18 /* Cat.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 2D0CC7A017DAE1C400AB4E18 /* Cat.jpg */; };
+		2D0CC7AE17DAE1C400AB4E18 /* Lion.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 2D0CC7A117DAE1C400AB4E18 /* Lion.jpg */; };
+		2D0CC7AF17DAE1C400AB4E18 /* Tiger.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 2D0CC7A217DAE1C400AB4E18 /* Tiger.jpg */; };
+		2D0CC7B317DAE1EC00AB4E18 /* ZooViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D0CC7B117DAE1EC00AB4E18 /* ZooViewController.m */; };
+		2D0CC7B417DAE1EC00AB4E18 /* ZooViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2D0CC7B217DAE1EC00AB4E18 /* ZooViewController.xib */; };
+		2D0CC7B817DAE46400AB4E18 /* DetailAnimalsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D0CC7B617DAE46400AB4E18 /* DetailAnimalsViewController.m */; };
+		2D0CC7B917DAE46400AB4E18 /* DetailAnimalsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2D0CC7B717DAE46400AB4E18 /* DetailAnimalsViewController.xib */; };
+		2D0CC7BB17DAE99B00AB4E18 /* zoo.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 2D0CC7BA17DAE99B00AB4E18 /* zoo.jpg */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		2D0CC76F17DADB8A00AB4E18 /* Zoo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Zoo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2D0CC77217DADB8A00AB4E18 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		2D0CC77417DADB8A00AB4E18 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		2D0CC77617DADB8A00AB4E18 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		2D0CC77A17DADB8A00AB4E18 /* Zoo-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Zoo-Info.plist"; sourceTree = "<group>"; };
+		2D0CC77C17DADB8A00AB4E18 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		2D0CC77E17DADB8A00AB4E18 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		2D0CC78017DADB8A00AB4E18 /* Zoo-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Zoo-Prefix.pch"; sourceTree = "<group>"; };
+		2D0CC78117DADB8A00AB4E18 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		2D0CC78217DADB8A00AB4E18 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		2D0CC78417DADB8A00AB4E18 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		2D0CC78617DADB8A00AB4E18 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		2D0CC78817DADB8A00AB4E18 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		2D0CC78A17DADB8A00AB4E18 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		2D0CC78B17DADB8A00AB4E18 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		2D0CC78E17DADB8A00AB4E18 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController.xib; sourceTree = "<group>"; };
+		2D0CC79617DAE1C400AB4E18 /* Deer.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = Deer.jpg; path = images/Deer.jpg; sourceTree = "<group>"; };
+		2D0CC79717DAE1C400AB4E18 /* Porcupine.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = Porcupine.jpg; path = images/Porcupine.jpg; sourceTree = "<group>"; };
+		2D0CC79817DAE1C400AB4E18 /* Panda.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = Panda.jpg; path = images/Panda.jpg; sourceTree = "<group>"; };
+		2D0CC79917DAE1C400AB4E18 /* Kangaroo.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = Kangaroo.jpg; path = images/Kangaroo.jpg; sourceTree = "<group>"; };
+		2D0CC79A17DAE1C400AB4E18 /* Bear.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = Bear.jpg; path = images/Bear.jpg; sourceTree = "<group>"; };
+		2D0CC79B17DAE1C400AB4E18 /* Chipmunk.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = Chipmunk.jpg; path = images/Chipmunk.jpg; sourceTree = "<group>"; };
+		2D0CC79C17DAE1C400AB4E18 /* Rabbit.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = Rabbit.jpg; path = images/Rabbit.jpg; sourceTree = "<group>"; };
+		2D0CC79D17DAE1C400AB4E18 /* Fish.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = Fish.jpg; path = images/Fish.jpg; sourceTree = "<group>"; };
+		2D0CC79E17DAE1C400AB4E18 /* Bird.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = Bird.jpg; path = images/Bird.jpg; sourceTree = "<group>"; };
+		2D0CC79F17DAE1C400AB4E18 /* Dog.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = Dog.jpg; path = images/Dog.jpg; sourceTree = "<group>"; };
+		2D0CC7A017DAE1C400AB4E18 /* Cat.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = Cat.jpg; path = images/Cat.jpg; sourceTree = "<group>"; };
+		2D0CC7A117DAE1C400AB4E18 /* Lion.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = Lion.jpg; path = images/Lion.jpg; sourceTree = "<group>"; };
+		2D0CC7A217DAE1C400AB4E18 /* Tiger.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = Tiger.jpg; path = images/Tiger.jpg; sourceTree = "<group>"; };
+		2D0CC7B017DAE1EC00AB4E18 /* ZooViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZooViewController.h; sourceTree = "<group>"; };
+		2D0CC7B117DAE1EC00AB4E18 /* ZooViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZooViewController.m; sourceTree = "<group>"; };
+		2D0CC7B217DAE1EC00AB4E18 /* ZooViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ZooViewController.xib; sourceTree = "<group>"; };
+		2D0CC7B517DAE46400AB4E18 /* DetailAnimalsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DetailAnimalsViewController.h; sourceTree = "<group>"; };
+		2D0CC7B617DAE46400AB4E18 /* DetailAnimalsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DetailAnimalsViewController.m; sourceTree = "<group>"; };
+		2D0CC7B717DAE46400AB4E18 /* DetailAnimalsViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DetailAnimalsViewController.xib; sourceTree = "<group>"; };
+		2D0CC7BA17DAE99B00AB4E18 /* zoo.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = zoo.jpg; path = images/zoo.jpg; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2D0CC76C17DADB8A00AB4E18 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2D0CC77317DADB8A00AB4E18 /* UIKit.framework in Frameworks */,
+				2D0CC77517DADB8A00AB4E18 /* Foundation.framework in Frameworks */,
+				2D0CC77717DADB8A00AB4E18 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2D0CC76617DADB8A00AB4E18 = {
+			isa = PBXGroup;
+			children = (
+				2D0CC77817DADB8A00AB4E18 /* Zoo */,
+				2D0CC77117DADB8A00AB4E18 /* Frameworks */,
+				2D0CC77017DADB8A00AB4E18 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		2D0CC77017DADB8A00AB4E18 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2D0CC76F17DADB8A00AB4E18 /* Zoo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2D0CC77117DADB8A00AB4E18 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2D0CC77217DADB8A00AB4E18 /* UIKit.framework */,
+				2D0CC77417DADB8A00AB4E18 /* Foundation.framework */,
+				2D0CC77617DADB8A00AB4E18 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		2D0CC77817DADB8A00AB4E18 /* Zoo */ = {
+			isa = PBXGroup;
+			children = (
+				2D0CC78117DADB8A00AB4E18 /* AppDelegate.h */,
+				2D0CC78217DADB8A00AB4E18 /* AppDelegate.m */,
+				2D0CC78A17DADB8A00AB4E18 /* ViewController.h */,
+				2D0CC78B17DADB8A00AB4E18 /* ViewController.m */,
+				2D0CC78D17DADB8A00AB4E18 /* ViewController.xib */,
+				2D0CC7B017DAE1EC00AB4E18 /* ZooViewController.h */,
+				2D0CC7B117DAE1EC00AB4E18 /* ZooViewController.m */,
+				2D0CC7B217DAE1EC00AB4E18 /* ZooViewController.xib */,
+				2D0CC7B517DAE46400AB4E18 /* DetailAnimalsViewController.h */,
+				2D0CC7B617DAE46400AB4E18 /* DetailAnimalsViewController.m */,
+				2D0CC7B717DAE46400AB4E18 /* DetailAnimalsViewController.xib */,
+				2D0CC77917DADB8A00AB4E18 /* Supporting Files */,
+			);
+			path = Zoo;
+			sourceTree = "<group>";
+		};
+		2D0CC77917DADB8A00AB4E18 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				2D0CC79517DAE1B200AB4E18 /* images */,
+				2D0CC77A17DADB8A00AB4E18 /* Zoo-Info.plist */,
+				2D0CC77B17DADB8A00AB4E18 /* InfoPlist.strings */,
+				2D0CC77E17DADB8A00AB4E18 /* main.m */,
+				2D0CC78017DADB8A00AB4E18 /* Zoo-Prefix.pch */,
+				2D0CC78417DADB8A00AB4E18 /* Default.png */,
+				2D0CC78617DADB8A00AB4E18 /* Default@2x.png */,
+				2D0CC78817DADB8A00AB4E18 /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		2D0CC79517DAE1B200AB4E18 /* images */ = {
+			isa = PBXGroup;
+			children = (
+				2D0CC7BA17DAE99B00AB4E18 /* zoo.jpg */,
+				2D0CC79617DAE1C400AB4E18 /* Deer.jpg */,
+				2D0CC79717DAE1C400AB4E18 /* Porcupine.jpg */,
+				2D0CC79817DAE1C400AB4E18 /* Panda.jpg */,
+				2D0CC79917DAE1C400AB4E18 /* Kangaroo.jpg */,
+				2D0CC79A17DAE1C400AB4E18 /* Bear.jpg */,
+				2D0CC79B17DAE1C400AB4E18 /* Chipmunk.jpg */,
+				2D0CC79C17DAE1C400AB4E18 /* Rabbit.jpg */,
+				2D0CC79D17DAE1C400AB4E18 /* Fish.jpg */,
+				2D0CC79E17DAE1C400AB4E18 /* Bird.jpg */,
+				2D0CC79F17DAE1C400AB4E18 /* Dog.jpg */,
+				2D0CC7A017DAE1C400AB4E18 /* Cat.jpg */,
+				2D0CC7A117DAE1C400AB4E18 /* Lion.jpg */,
+				2D0CC7A217DAE1C400AB4E18 /* Tiger.jpg */,
+			);
+			name = images;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2D0CC76E17DADB8A00AB4E18 /* Zoo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2D0CC79217DADB8A00AB4E18 /* Build configuration list for PBXNativeTarget "Zoo" */;
+			buildPhases = (
+				2D0CC76B17DADB8A00AB4E18 /* Sources */,
+				2D0CC76C17DADB8A00AB4E18 /* Frameworks */,
+				2D0CC76D17DADB8A00AB4E18 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Zoo;
+			productName = Zoo;
+			productReference = 2D0CC76F17DADB8A00AB4E18 /* Zoo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2D0CC76717DADB8A00AB4E18 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = "Tran Van Bang";
+			};
+			buildConfigurationList = 2D0CC76A17DADB8A00AB4E18 /* Build configuration list for PBXProject "Zoo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 2D0CC76617DADB8A00AB4E18;
+			productRefGroup = 2D0CC77017DADB8A00AB4E18 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2D0CC76E17DADB8A00AB4E18 /* Zoo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2D0CC76D17DADB8A00AB4E18 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2D0CC77D17DADB8A00AB4E18 /* InfoPlist.strings in Resources */,
+				2D0CC78517DADB8A00AB4E18 /* Default.png in Resources */,
+				2D0CC78717DADB8A00AB4E18 /* Default@2x.png in Resources */,
+				2D0CC78917DADB8A00AB4E18 /* Default-568h@2x.png in Resources */,
+				2D0CC78F17DADB8A00AB4E18 /* ViewController.xib in Resources */,
+				2D0CC7A317DAE1C400AB4E18 /* Deer.jpg in Resources */,
+				2D0CC7A417DAE1C400AB4E18 /* Porcupine.jpg in Resources */,
+				2D0CC7A517DAE1C400AB4E18 /* Panda.jpg in Resources */,
+				2D0CC7A617DAE1C400AB4E18 /* Kangaroo.jpg in Resources */,
+				2D0CC7A717DAE1C400AB4E18 /* Bear.jpg in Resources */,
+				2D0CC7A817DAE1C400AB4E18 /* Chipmunk.jpg in Resources */,
+				2D0CC7A917DAE1C400AB4E18 /* Rabbit.jpg in Resources */,
+				2D0CC7AA17DAE1C400AB4E18 /* Fish.jpg in Resources */,
+				2D0CC7AB17DAE1C400AB4E18 /* Bird.jpg in Resources */,
+				2D0CC7AC17DAE1C400AB4E18 /* Dog.jpg in Resources */,
+				2D0CC7AD17DAE1C400AB4E18 /* Cat.jpg in Resources */,
+				2D0CC7AE17DAE1C400AB4E18 /* Lion.jpg in Resources */,
+				2D0CC7AF17DAE1C400AB4E18 /* Tiger.jpg in Resources */,
+				2D0CC7B417DAE1EC00AB4E18 /* ZooViewController.xib in Resources */,
+				2D0CC7B917DAE46400AB4E18 /* DetailAnimalsViewController.xib in Resources */,
+				2D0CC7BB17DAE99B00AB4E18 /* zoo.jpg in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2D0CC76B17DADB8A00AB4E18 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2D0CC77F17DADB8A00AB4E18 /* main.m in Sources */,
+				2D0CC78317DADB8A00AB4E18 /* AppDelegate.m in Sources */,
+				2D0CC78C17DADB8A00AB4E18 /* ViewController.m in Sources */,
+				2D0CC7B317DAE1EC00AB4E18 /* ZooViewController.m in Sources */,
+				2D0CC7B817DAE46400AB4E18 /* DetailAnimalsViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		2D0CC77B17DADB8A00AB4E18 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2D0CC77C17DADB8A00AB4E18 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		2D0CC78D17DADB8A00AB4E18 /* ViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2D0CC78E17DADB8A00AB4E18 /* en */,
+			);
+			name = ViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2D0CC79017DADB8A00AB4E18 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		2D0CC79117DADB8A00AB4E18 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2D0CC79317DADB8A00AB4E18 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Zoo/Zoo-Prefix.pch";
+				INFOPLIST_FILE = "Zoo/Zoo-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		2D0CC79417DADB8A00AB4E18 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Zoo/Zoo-Prefix.pch";
+				INFOPLIST_FILE = "Zoo/Zoo-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2D0CC76A17DADB8A00AB4E18 /* Build configuration list for PBXProject "Zoo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2D0CC79017DADB8A00AB4E18 /* Debug */,
+				2D0CC79117DADB8A00AB4E18 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D0CC79217DADB8A00AB4E18 /* Build configuration list for PBXNativeTarget "Zoo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2D0CC79317DADB8A00AB4E18 /* Debug */,
+				2D0CC79417DADB8A00AB4E18 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2D0CC76717DADB8A00AB4E18 /* Project object */;
+}
